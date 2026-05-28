@@ -1,0 +1,24 @@
+{
+  "name": "goit-js-hw-09",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build --base=/goit-js-hw-09/",
+    "preview": "vite preview --host 0.0.0.0",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "simplelightbox": "latest"
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "postcss": "^8.4.41",
+    "postcss-sort-media-queries": "^5.2.0",
+    "prettier": "latest",
+    "vite": "^5.4.6",
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
+  }
+}
